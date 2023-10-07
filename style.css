@@ -36,12 +36,11 @@ body {
     border-radius: 20px;
 
     background-color: transparent;
+    box-shadow: 20px 20px 50px grey;
 
     font-size: 2rem;
 
     color: #ffffff;
-
-    box-shadow: 20px 20px 50px grey;
 }
 
 .button:hover {

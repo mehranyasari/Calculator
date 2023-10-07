@@ -1,5 +1,9 @@
 function display(val) {
-    document.getElementById("result").value += val;
+    if (document.getElementById("result").value === "00") {
+        document.getElementById("result").value;
+    } else {
+        document.getElementById("result").value += val;
+    }
 
     return val;
 }
