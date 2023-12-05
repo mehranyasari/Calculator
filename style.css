@@ -121,7 +121,6 @@ body {
   }
 }
 
-input:active,
-input:focus {
+input:active {
   box-shadow: 10px 10px 10px gray;
 }
