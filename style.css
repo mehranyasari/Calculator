@@ -1,123 +1,127 @@
 body {
-    background-color: #000000;
+  background-color: #000000;
 }
 .container {
-    border-radius: 20px;
+  border-radius: 20px;
 
-    position: absolute;
+  position: absolute;
 
-    top: 55%;
+  top: 55%;
 
-    left: 50%;
+  left: 50%;
 
-    transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 
-    height: 400px;
-    width: 450px;
+  height: 400px;
+  width: 450px;
 }
 
 .keys {
-    display: grid;
+  display: grid;
 
-    grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 
-    grid-gap: 10px;
+  grid-gap: 10px;
 
-    padding: 10px;
+  padding: 10px;
 
-    margin: auto;
+  margin: auto;
 }
 
 .button {
-    height: 80px;
+  height: 80px;
 
-    padding: 5px;
+  padding: 5px;
 
-    border-radius: 20px;
+  border-radius: 20px;
 
-    background-color: transparent;
-    box-shadow: 20px 20px 50px grey;
+  background-color: transparent;
 
-    font-size: 2rem;
+  font-size: 2rem;
 
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .button:hover {
-    background-color: gray;
+  background-color: gray;
 }
 
 .operator {
-    color: #fff;
+  color: #fff;
 
-    background-color: #ff921d;
+  background-color: #ff921d;
 
-    border-radius: 20px;
+  border-radius: 20px;
 
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .operator:hover {
-    background-color: gray;
+  background-color: gray;
 }
 
 .clear {
-    background-color: #7e7e7e;
+  background-color: #7e7e7e;
 
-    color: #fff;
+  color: #fff;
 
-    width: 100px;
+  width: 100px;
 
-    height: 80px;
+  height: 80px;
 
-    margin-left: 110px;
+  margin-left: 110px;
 
-    border-radius: 20px;
+  border-radius: 20px;
 
-    font-weight: bolder;
+  font-weight: bolder;
 }
 
 .equal-sign {
-    background-color: #ff921d;
+  background-color: #ff921d;
 
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .screen {
-    justify-content: left;
+  justify-content: left;
 
-    color: #fff;
+  color: #fff;
 
-    background-color: black;
+  background-color: black;
 
-    font-size: medium;
+  font-size: medium;
 
-    width: 90%;
+  width: 90%;
 
-    height: 30%;
+  height: 30%;
 
-    cursor: default;
+  cursor: default;
 
-    padding: 24px;
+  padding: 24px;
 
-    padding-left: 40%;
+  padding-left: 40%;
 
-    margin: auto;
+  margin: auto;
 
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 
-    border-radius: 20px;
+  border-radius: 20px;
 }
 
 @media only screen and (max-width: 768px) {
-    .container {
-        width: 350px;
-        height: 400px;
-    }
+  .container {
+    width: 350px;
+    height: 400px;
+  }
 
-    .clear {
-        margin-left: 85px;
-        padding: 0;
-        width: 85px;
-    }
+  .clear {
+    margin-left: 85px;
+    padding: 0;
+    width: 85px;
+  }
+}
+
+input:active,
+input:focus {
+  box-shadow: 10px 10px 10px gray;
 }
